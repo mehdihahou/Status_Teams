@@ -57,6 +57,7 @@ DEBUG = True
 
 ## Notes:
 
+- Make sure that your are in windows, if you are using Linux or MacOs make sure that you have past the right path
 - The script utilizes threading for concurrently monitoring Teams status and updating the IO-Link Master.
 - Microsoft Teams' presence information is extracted from the log file located at the specified path.
 - Ensure the Modbus TCP parameters match your IO-Link Master configuration.
